@@ -38,7 +38,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <sectionc className="w-full nav-height bg-black relative">
+    <section className="w-full nav-height bg-black relative">
       <div className="h-5/6 w-full flex-center flex-col">
         <p id="hero" className="hero-title">
           iPhone 15 pro
@@ -68,7 +68,7 @@ const Hero = () => {
           <sup className="underline underline-offset-2 decoration-2">1</sup>
         </p>
       </div>
-    </sectionc>
+    </section>
   );
 };
 
